@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-T">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ัึว ใัสึๆ? - ๅไัใไฯ ๆ ใฯัำ</title>
+    <title>ุฑุถุง ู…ุฑุชุถูÛ - ููุฑู…ูุฏ ู ู…ุฏุฑุณ</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Markazi+Text&family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
@@ -109,23 +109,23 @@
 </head>
 <body class="bg-gray-100 text-gray-800">
 
-    <div id="loadingIndicator" style="display: none;">ฯั อวแ ศวัะวั?...</div>
+    <div id="loadingIndicator" style="display: none;">ุฏุฑ ุญุงู ุจุงุฑฺฏุฐุงุฑÛ...</div>
 
     <button id="adminToggleBtn" class="fixed top-4 left-4 bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-lg shadow-lg z-50 transition-all duration-300">
-        ๆัๆฯ ศๅ อวแส ใฯ?ั?ส
+        ูุฑูุฏ ุจู ุญุงูุช ู…ุฏÛุฑÛุช
     </button>
-    <div id="userIdDisplay" class="fixed top-16 left-4 bg-gray-700 text-white py-1 px-3 rounded-md text-xs z-50 admin-controls">ิไวำๅ วัศั?: <span id="currentUserId"></span></div>
+    <div id="userIdDisplay" class="fixed top-16 left-4 bg-gray-700 text-white py-1 px-3 rounded-md text-xs z-50 admin-controls">ุดูุงุณู ฺฉุงุฑุจุฑÛ: <span id="currentUserId"></span></div>
 
 
     <header id="mainHeader" class="bg-white shadow-md sticky top-0 z-40 transition-all duration-500">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <h1 id="siteName" class="text-3xl font-lalezar text-indigo-600 editable-text" data-field="name">ัึว ใัสึๆ?</h1>
+            <h1 id="siteName" class="text-3xl font-lalezar text-indigo-600 editable-text" data-field="name">ุฑุถุง ู…ุฑุชุถูÛ</h1>
             <nav>
                 <ul class="flex space-x-reverse space-x-4">
-                    <li><a href="#about" class="text-gray-600 hover:text-indigo-500 transition-colors">ฯัศวัๅ ใไ</a></li>
-                    <li><a href="#portfolio" class="text-gray-600 hover:text-indigo-500 transition-colors">ไใๆไๅ วัๅว</a></li>
-                    <li><a href="#classes" class="text-gray-600 hover:text-indigo-500 transition-colors">แวำๅว? ยใๆาิ?</a></li>
-                    <li><a href="#contact" class="text-gray-600 hover:text-indigo-500 transition-colors">สใวำ ศว ใไ</a></li>
+                    <li><a href="#about" class="text-gray-600 hover:text-indigo-500 transition-colors">ุฏุฑุจุงุฑู ู…ู</a></li>
+                    <li><a href="#portfolio" class="text-gray-600 hover:text-indigo-500 transition-colors">ูู…ููู ฺฉุงุฑูุง</a></li>
+                    <li><a href="#classes" class="text-gray-600 hover:text-indigo-500 transition-colors">ฺฉูุงุณโ€ูุงÛ ุขู…ูุฒุดÛ</a></li>
+                    <li><a href="#contact" class="text-gray-600 hover:text-indigo-500 transition-colors">ุชู…ุงุณ ุจุง ู…ู</a></li>
                 </ul>
             </nav>
         </div>
@@ -133,47 +133,47 @@
 
     <div id="settingsPanel" class="admin-controls fixed top-0 right-0 h-full w-80 bg-gray-800 text-white p-6 shadow-xl transform translate-x-full transition-transform duration-300 ease-in-out z-50 overflow-y-auto">
         <button id="closeSettingsPanel" class="absolute top-4 left-4 text-2xl">&times;</button>
-        <h2 class="text-2xl font-lalezar mb-6 border-b pb-2 border-gray-700">สไู?ใวส ำว?ส</h2>
+        <h2 class="text-2xl font-lalezar mb-6 border-b pb-2 border-gray-700">ุชูุธÛู…ุงุช ุณุงÛุช</h2>
 
         <div class="mb-6">
-            <h3 class="text-lg font-semibold mb-2">ำาใ?ไๅ วีแ? ำว?ส</h3>
-            <label for="bgImageUpload" class="block mb-1 text-sm">ศวัะวั? ฺำ ำาใ?ไๅ:</label>
+            <h3 class="text-lg font-semibold mb-2">ูพุณโ€ุฒู…Ûูู ุงุตูÛ ุณุงÛุช</h3>
+            <label for="bgImageUpload" class="block mb-1 text-sm">ุจุงุฑฺฏุฐุงุฑÛ ุนฺฉุณ ูพุณโ€ุฒู…Ûูู:</label>
             <input type="file" id="bgImageUpload" accept="image/*" class="w-full text-sm text-gray-300 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-indigo-50 file:text-indigo-700 hover:file:bg-indigo-100 mb-2">
-            <label for="bgSizeSelect" class="block mb-1 text-sm">ไอๆๅ ไใว?ิ ำาใ?ไๅ:</label>
+            <label for="bgSizeSelect" class="block mb-1 text-sm">ูุญูู ูู…ุงÛุด ูพุณโ€ุฒู…Ûูู:</label>
             <select id="bgSizeSelect" class="w-full p-2 rounded bg-gray-700 border border-gray-600 focus:border-indigo-500">
-                <option value="cover">ๆิิ วใแ (Cover)</option>
-                <option value="contain">ใสไวำศ (Contain)</option>
-                <option value="auto">ฮๆฯวั (Auto)</option>
+                <option value="cover">ูพูุดุด ฺฉุงู…ู (Cover)</option>
+                <option value="contain">ู…ุชูุงุณุจ (Contain)</option>
+                <option value="auto">ุฎูุฏฺฉุงุฑ (Auto)</option>
             </select>
-            <button id="saveBackgroundSettings" class="mt-3 w-full bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md transition-colors">ะฮ?ัๅ สไู?ใวส ำาใ?ไๅ</button>
+            <button id="saveBackgroundSettings" class="mt-3 w-full bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md transition-colors">ุฐุฎÛุฑู ุชูุธÛู…ุงุช ูพุณโ€ุฒู…Ûูู</button>
         </div>
-        <p class="text-xs text-gray-400 mt-4">สÛ??ัวส ใสไๅว ศว แ? ฮวัฬ วา วฯั ใสไ ะฮ?ัๅ ใ?ิๆฯ.</p>
+        <p class="text-xs text-gray-400 mt-4">ุชุบÛÛุฑุงุช ู…ุชูโ€ูุง ุจุง ฺฉูÛฺฉ ุฎุงุฑุฌ ุงุฒ ฺฉุงุฏุฑ ู…ุชู ุฐุฎÛุฑู ู…Ûโ€ุดูุฏ.</p>
     </div>
 
 
-    <section id="hero" class="min-h-screen flex items-center justify-center text-center bg-cover bg-center bg-fixed transition-all duration-1000" style="background-image: url('https://placehold.co/1920x1080/667eea/ffffff?text=ๅไั+ใไ');">
+    <section id="hero" class="min-h-screen flex items-center justify-center text-center bg-cover bg-center bg-fixed transition-all duration-1000" style="background-image: url('https://placehold.co/1920x1080/667eea/ffffff?text=ููุฑ+ู…ู');">
         <div class="bg-black bg-opacity-50 p-8 md:p-12 rounded-lg">
-            <h2 id="heroTitle" class="text-4xl md:text-6xl font-lalezar text-white mb-4 editable-text" data-field="heroTitle">ๅไัก สฬแ? ัๆอ</h2>
-            <p id="heroSubtitle" class="text-lg md:text-xl text-gray-200 mb-8 editable-text" data-field="heroSubtitle">วๆิ? ฯั ฯไ?ว? ำ?วๅ Þแใก ัไ ัๆÛไ ๆ ุัวอ? ศว ัึว ใัสึๆ?.</p>
-            <a href="#portfolio" class="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105">ใิวๅฯๅ ไใๆไๅ วัๅว</a>
+            <h2 id="heroTitle" class="text-4xl md:text-6xl font-lalezar text-white mb-4 editable-text" data-field="heroTitle">ููุฑุ ุชุฌูÛ ุฑูุญ</h2>
+            <p id="heroSubtitle" class="text-lg md:text-xl text-gray-200 mb-8 editable-text" data-field="heroSubtitle">ฺฉุงูุดÛ ุฏุฑ ุฏูÛุงÛ ุณÛุงู ููู…ุ ุฑูฺฏ ุฑูุบู ู ุทุฑุงุญÛ ุจุง ุฑุถุง ู…ุฑุชุถูÛ.</p>
+            <a href="#portfolio" class="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-8 rounded-lg text-lg transition-transform transform hover:scale-105">ู…ุดุงูุฏู ูู…ููู ฺฉุงุฑูุง</a>
         </div>
     </section>
 
     <section id="about" class="py-16 md:py-24 bg-white">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-lalezar text-center text-gray-800 mb-12">ฯัศวัๅ ใไ</h2>
+            <h2 class="text-3xl md:text-4xl font-lalezar text-center text-gray-800 mb-12">ุฏุฑุจุงุฑู ู…ู</h2>
             <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
                 <div class="md:w-1/3 text-center">
                     <div id="aboutImageContainer" class="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full overflow-hidden shadow-xl border-4 border-indigo-300 image-container">
-                        <img id="aboutImage" src="https://placehold.co/400x400/cccccc/969696?text=ฺำ+ใไ" alt="ัึว ใัสึๆ?" class="object-cover w-full h-full">
-                        <button class="delete-btn admin-controls" data-section="aboutImage" title="อะÝ ฺำ ฯัศวัๅ ใไ">&times;</button>
+                        <img id="aboutImage" src="https://placehold.co/400x400/cccccc/969696?text=ุนฺฉุณ+ู…ู" alt="ุฑุถุง ู…ุฑุชุถูÛ" class="object-cover w-full h-full">
+                        <button class="delete-btn admin-controls" data-section="aboutImage" title="ุญุฐู ุนฺฉุณ ุฏุฑุจุงุฑู ู…ู">&times;</button>
                     </div>
-                    <label for="aboutImageUpload" class="admin-controls mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md cursor-pointer transition-colors">สÛ??ั ฺำ ัๆÝว?แ</label>
+                    <label for="aboutImageUpload" class="admin-controls mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md cursor-pointer transition-colors">ุชุบÛÛุฑ ุนฺฉุณ ูพุฑููุงÛู</label>
                     <input type="file" id="aboutImageUpload" accept="image/*" class="hidden">
                 </div>
                 <div class="md:w-2/3">
                     <p id="aboutText" class="text-lg text-gray-700 leading-relaxed editable-text" data-field="aboutText">
-                        ำแวใ! ใไ ัึว ใัสึๆ? ๅำสใ. ำวแๅวำส ๅ ศว ฺิÞ ๆ ฺแวÞๅ ฯั าใ?ไๅ ๅไัๅว? สฬำใ?ก ศๅๆ?ๅ ำ?วๅ Þแใก ัไ ัๆÛไ ๆ ุัวอ? Ýฺวแ?ส ใ?ไใ. ๅไั ศัว? ใไ ไๅ สไๅว ? อัÝๅก ศแๅ ัวๅ? ศัว? ศ?วไ วอำวำวส ๆ ฯ?ฯวๅๅว?ใ ศๅ ฬๅวไ ?ัวใๆไ วำส. ใÝสฮัใ ๅ สฬัศ?วส ๆ ฯวไิ ฮๆฯ ัว วา ุั?Þ สฯั?ำ อัÝๅว? ว?ไ ัิสๅๅว ศว ๅไัฬๆ?วไ ฺแวÞๅใไฯ ศๅ วิสัว ใ?ะวัใ ๆ ิวๅฯ ิๆÝว?? วำสฺฯวฯๅว?ิวไ ๅำสใ.
+                        ุณูุงู…! ู…ู ุฑุถุง ู…ุฑุชุถูÛ ูุณุชู…. ุณุงูโ€ูุงุณุช ฺฉู ุจุง ุนุดู ู ุนูุงูู ุฏุฑ ุฒู…Ûูู ููุฑูุงÛ ุชุฌุณู…Ûุ ุจูโ€ูÛฺู ุณÛุงู ููู…ุ ุฑูฺฏ ุฑูุบู ู ุทุฑุงุญÛ ูุนุงูÛุช ู…Ûโ€ฺฉูู…. ููุฑ ุจุฑุงÛ ู…ู ูู ุชููุง Ûฺฉ ุญุฑููุ ุจูฺฉู ุฑุงูÛ ุจุฑุงÛ ุจÛุงู ุงุญุณุงุณุงุช ู ุฏÛุฏฺฏุงูโ€ูุงÛู… ุจู ุฌูุงู ูพÛุฑุงู…ูู ุงุณุช. ู…ูุชุฎุฑู… ฺฉู ุชุฌุฑุจÛุงุช ู ุฏุงูุด ุฎูุฏ ุฑุง ุงุฒ ุทุฑÛู ุชุฏุฑÛุณ ุญุฑููโ€ุงÛ ุงÛู ุฑุดุชูโ€ูุง ุจุง ููุฑุฌูÛุงู ุนูุงููโ€ู…ูุฏ ุจู ุงุดุชุฑุงฺฉ ู…Ûโ€ฺฏุฐุงุฑู… ู ุดุงูุฏ ุดฺฉููุงÛÛ ุงุณุชุนุฏุงุฏูุงÛุดุงู ูุณุชู….
                     </p>
                 </div>
             </div>
@@ -183,14 +183,14 @@
     <section id="portfolio" class="py-16 md:py-24 bg-gray-50">
         <div class="container mx-auto px-6">
             <div class="flex justify-between items-center mb-12">
-                <h2 id="portfolioTitle" class="text-3xl md:text-4xl font-lalezar text-gray-800 editable-text" data-field="portfolioTitle">ไใๆไๅ วัๅว</h2>
-                <label for="portfolioImageUpload" class="admin-controls bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md cursor-pointer transition-colors">วÝาๆฯไ ฺำ ศๅ ไใๆไๅ วัๅว</label>
+                <h2 id="portfolioTitle" class="text-3xl md:text-4xl font-lalezar text-gray-800 editable-text" data-field="portfolioTitle">ูู…ููู ฺฉุงุฑูุง</h2>
+                <label for="portfolioImageUpload" class="admin-controls bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md cursor-pointer transition-colors">ุงูุฒูุฏู ุนฺฉุณ ุจู ูู…ููู ฺฉุงุฑูุง</label>
                 <input type="file" id="portfolioImageUpload" accept="image/*" class="hidden" multiple>
             </div>
             <div id="portfolioGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 <div class="add-image-placeholder admin-controls" onclick="document.getElementById('portfolioImageUpload').click()">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-400 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" /></svg>
-                    <span>วÝาๆฯไ ฺำ</span>
+                    <span>ุงูุฒูุฏู ุนฺฉุณ</span>
                 </div>
             </div>
         </div>
@@ -199,17 +199,17 @@
     <section id="classes" class="py-16 md:py-24 bg-white">
         <div class="container mx-auto px-6">
              <div class="flex justify-between items-center mb-12">
-                <h2 id="classesTitle" class="text-3xl md:text-4xl font-lalezar text-gray-800 editable-text" data-field="classesTitle">แวำๅว? ยใๆาิ?</h2>
-                <label for="classImageUpload" class="admin-controls bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md cursor-pointer transition-colors">วÝาๆฯไ ฺำ ศๅ แวำๅว</label>
+                <h2 id="classesTitle" class="text-3xl md:text-4xl font-lalezar text-gray-800 editable-text" data-field="classesTitle">ฺฉูุงุณโ€ูุงÛ ุขู…ูุฒุดÛ</h2>
+                <label for="classImageUpload" class="admin-controls bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md cursor-pointer transition-colors">ุงูุฒูุฏู ุนฺฉุณ ุจู ฺฉูุงุณโ€ูุง</label>
                 <input type="file" id="classImageUpload" accept="image/*" class="hidden" multiple>
             </div>
             <p id="classesText" class="text-lg text-center text-gray-700 mb-12 leading-relaxed max-w-3xl mx-auto editable-text" data-field="classesText">
-                ฯั แวำๅว? ยใๆาิ? ใไก ิใว ศว วีๆแ ๆ สไ?ๅว? อัÝๅว? ำ?วๅ Þแใก ัไ ัๆÛไ ๆ ุัวอ? ยิไว ฮๆวๅ?ฯ ิฯ. ๅฯÝ ใไ ว?ฬวฯ Ýึว?? ๆ?ว ๆ ฮแวÞ ศัว? ัิฯ วำสฺฯวฯๅว? ิใวำส. ศัว? วุแวฺวส ศ?ิสั ฯัศวัๅ ฯๆัๅๅว ๆ หศสไวใ ศว ใไ สใวำ ศ?ั?ฯ.
+                ุฏุฑ ฺฉูุงุณโ€ูุงÛ ุขู…ูุฒุดÛ ู…ูุ ุดู…ุง ุจุง ุงุตูู ู ุชฺฉูÛฺฉโ€ูุงÛ ุญุฑููโ€ุงÛ ุณÛุงู ููู…ุ ุฑูฺฏ ุฑูุบู ู ุทุฑุงุญÛ ุขุดูุง ุฎูุงูÛุฏ ุดุฏ. ูุฏู ู…ู ุงÛุฌุงุฏ ูุถุงÛÛ ูพูÛุง ู ุฎูุงู ุจุฑุงÛ ุฑุดุฏ ุงุณุชุนุฏุงุฏูุงÛ ุดู…ุงุณุช. ุจุฑุงÛ ุงุทูุงุนุงุช ุจÛุดุชุฑ ุฏุฑุจุงุฑู ุฏูุฑูโ€ูุง ู ุซุจุชโ€ูุงู… ุจุง ู…ู ุชู…ุงุณ ุจฺฏÛุฑÛุฏ.
             </p>
             <div id="classesGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 <div class="add-image-placeholder admin-controls" onclick="document.getElementById('classImageUpload').click()">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-400 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" /></svg>
-                    <span>วÝาๆฯไ ฺำ</span>
+                    <span>ุงูุฒูุฏู ุนฺฉุณ</span>
                 </div>
             </div>
         </div>
@@ -217,21 +217,21 @@
 
     <section id="contact" class="py-16 md:py-24 bg-indigo-700 text-white">
         <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl md:text-4xl font-lalezar mb-8">สใวำ ศว ใไ</h2>
+            <h2 class="text-3xl md:text-4xl font-lalezar mb-8">ุชู…ุงุณ ุจุง ู…ู</h2>
             <div class="max-w-lg mx-auto">
-                <p class="text-lg mb-4">ศัว? ใิวๆัๅก หศสไวใ ฯั แวำๅว ๆ ?ว ำÝวัิ วัก ใ?สๆวไ?ฯ วา ุั?Þ ัวๅๅว? า?ั ศว ใไ ฯั วัสศวุ ศวิ?ฯ:</p>
+                <p class="text-lg mb-4">ุจุฑุงÛ ู…ุดุงูุฑูุ ุซุจุชโ€ูุงู… ุฏุฑ ฺฉูุงุณโ€ูุง ู Ûุง ุณูุงุฑุด ฺฉุงุฑุ ู…Ûโ€ุชูุงูÛุฏ ุงุฒ ุทุฑÛู ุฑุงูโ€ูุงÛ ุฒÛุฑ ุจุง ู…ู ุฏุฑ ุงุฑุชุจุงุท ุจุงุดÛุฏ:</p>
                 <div class="space-y-3">
-                    <p><strong>สแÝไ:</strong> <span id="contactPhone" class="editable-text" data-field="phone">09374558557</span></p>
-                    <p><strong>ยฯัำ:</strong> <span id="contactAddress" class="editable-text" data-field="address">ฮวไ? ยศวฯ ไๆก ฮ?วศวไ ิๅ?ฯ แุ?Ý?ก ฮ?วศวไ ศวÞั?วไก แว 6</span></p>
-                    <p><strong>ว?ใ?แ:</strong> <span id="contactEmail" class="editable-text" data-field="email">ว?ใ?แ ฮๆฯ ัว ๆวัฯ ไ?ฯ</span></p>
+                    <p><strong>ุชููู:</strong> <span id="contactPhone" class="editable-text" data-field="phone">09374558557</span></p>
+                    <p><strong>ุขุฏุฑุณ:</strong> <span id="contactAddress" class="editable-text" data-field="address">ุฎุงูÛ ุขุจุงุฏ ููุ ุฎÛุงุจุงู ุดูÛุฏ ูุทÛูÛุ ุฎÛุงุจุงู ุจุงูุฑÛุงูุ ูพูุงฺฉ 6</span></p>
+                    <p><strong>ุงÛู…Ûู:</strong> <span id="contactEmail" class="editable-text" data-field="email">ุงÛู…Ûู ุฎูุฏ ุฑุง ูุงุฑุฏ ฺฉูÛุฏ</span></p>
                 </div>
             </div>
         </div>
     </section>
 
     <footer class="bg-gray-800 text-gray-300 text-center py-8">
-        <p>&copy; <span id="currentYear"></span> ัึว ใัสึๆ?. สใวใ? อÞๆÞ ใอÝๆู วำส.</p>
-        <p class="text-xs mt-1">ุัวอ? ๆ สๆำฺๅ สๆำุ ๅๆิ ใีไๆฺ? Gemini</p>
+        <p>&copy; <span id="currentYear"></span> ุฑุถุง ู…ุฑุชุถูÛ. ุชู…ุงู…Û ุญููู ู…ุญููุธ ุงุณุช.</p>
+        <p class="text-xs mt-1">ุทุฑุงุญÛ ู ุชูุณุนู ุชูุณุท ููุด ู…ุตููุนÛ Gemini</p>
     </footer>
 
     <script type="module">
@@ -266,7 +266,7 @@
         let isAdminMode = false;
         const loadingIndicator = document.getElementById('loadingIndicator');
 
-        function showLoading(message = 'ฯั อวแ ศวัะวั?...') {
+        function showLoading(message = 'ุฏุฑ ุญุงู ุจุงุฑฺฏุฐุงุฑÛ...') {
             loadingIndicator.textContent = message;
             loadingIndicator.style.display = 'flex';
         }
@@ -277,7 +277,7 @@
 
         // --- Authentication ---
         onAuthStateChanged(auth, async (user) => {
-            showLoading('ฯั อวแ วอัวา ๅๆ?ส...');
+            showLoading('ุฏุฑ ุญุงู ุงุญุฑุงุฒ ููÛุช...');
             if (user) {
                 userId = user.uid;
                 console.log("User authenticated with UID:", userId);
@@ -299,7 +299,7 @@
                     // Avoid using alert in production, use a custom modal or notification
                     // For this example, we'll keep it to show the error clearly during development
                     const userAlert = document.createElement('div');
-                    userAlert.textContent = "ฮุว ฯั ๆัๆฯ ศๅ ำ?ำสใ. แุÝว ีÝอๅ ัว ัÝัิ ไ?ฯ.";
+                    userAlert.textContent = "ุฎุทุง ุฏุฑ ูุฑูุฏ ุจู ุณÛุณุชู…. ูุทูุง ุตูุญู ุฑุง ุฑูุฑุด ฺฉูÛุฏ.";
                     userAlert.style.cssText = "position:fixed; top:10px; left:50%; transform:translateX(-50%); background:red; color:white; padding:10px; border-radius:5px; z-index:10000;";
                     document.body.appendChild(userAlert);
                     setTimeout(() => userAlert.remove(), 5000);
@@ -326,22 +326,22 @@
         // --- Load Data ---
         async function loadAllData() {
             if (!userId) return;
-            showLoading('ฯั อวแ ศวั?ั? วุแวฺวส ำว?ส...');
+            showLoading('ุฏุฑ ุญุงู ุจุงุฑฺฏÛุฑÛ ุงุทูุงุนุงุช ุณุงÛุช...');
 
             try {
                 const userSiteDataRef = getUserSiteDataDocRef();
                 onSnapshot(userSiteDataRef, (docSnap) => {
                     if (docSnap.exists()) {
                         const data = docSnap.data();
-                        document.getElementById('siteName').textContent = data.name || 'ัึว ใัสึๆ?';
+                        document.getElementById('siteName').textContent = data.name || 'ุฑุถุง ู…ุฑุชุถูÛ';
                         document.getElementById('contactPhone').textContent = data.phone || '09374558557';
-                        document.getElementById('contactAddress').textContent = data.address || 'ฮวไ? ยศวฯ ไๆ...';
-                        document.getElementById('contactEmail').textContent = data.email || 'ว?ใ?แ ฮๆฯ ัว ๆวัฯ ไ?ฯ';
+                        document.getElementById('contactAddress').textContent = data.address || 'ุฎุงูÛ ุขุจุงุฏ ูู...';
+                        document.getElementById('contactEmail').textContent = data.email || 'ุงÛู…Ûู ุฎูุฏ ุฑุง ูุงุฑุฏ ฺฉูÛุฏ';
                         
                         if (data.backgroundImageUrl) {
                             document.getElementById('hero').style.backgroundImage = `url('${data.backgroundImageUrl}')`;
                         } else {
-                            document.getElementById('hero').style.backgroundImage = `url('https://placehold.co/1920x1080/667eea/ffffff?text=ๅไั+ใไ')`;
+                            document.getElementById('hero').style.backgroundImage = `url('https://placehold.co/1920x1080/667eea/ffffff?text=ููุฑ+ู…ู')`;
                         }
                         if (data.backgroundSize) {
                             document.getElementById('hero').style.backgroundSize = data.backgroundSize;
@@ -351,36 +351,36 @@
                              document.getElementById('bgSizeSelect').value = 'cover';
                         }
 
-                        document.getElementById('heroTitle').textContent = data.heroTitle || 'ๅไัก สฬแ? ัๆอ';
-                        document.getElementById('heroSubtitle').textContent = data.heroSubtitle || 'วๆิ? ฯั ฯไ?ว? ำ?วๅ Þแใ...';
-                        document.getElementById('aboutText').textContent = data.aboutText || 'ำแวใ! ใไ ัึว ใัสึๆ? ๅำสใ...';
-                        document.getElementById('portfolioTitle').textContent = data.portfolioTitle || 'ไใๆไๅ วัๅว';
-                        document.getElementById('classesTitle').textContent = data.classesTitle || 'แวำๅว? ยใๆาิ?';
-                        document.getElementById('classesText').textContent = data.classesText || 'ฯั แวำๅว? ยใๆาิ? ใไ...';
+                        document.getElementById('heroTitle').textContent = data.heroTitle || 'ููุฑุ ุชุฌูÛ ุฑูุญ';
+                        document.getElementById('heroSubtitle').textContent = data.heroSubtitle || 'ฺฉุงูุดÛ ุฏุฑ ุฏูÛุงÛ ุณÛุงู ููู…...';
+                        document.getElementById('aboutText').textContent = data.aboutText || 'ุณูุงู…! ู…ู ุฑุถุง ู…ุฑุชุถูÛ ูุณุชู…...';
+                        document.getElementById('portfolioTitle').textContent = data.portfolioTitle || 'ูู…ููู ฺฉุงุฑูุง';
+                        document.getElementById('classesTitle').textContent = data.classesTitle || 'ฺฉูุงุณโ€ูุงÛ ุขู…ูุฒุดÛ';
+                        document.getElementById('classesText').textContent = data.classesText || 'ุฏุฑ ฺฉูุงุณโ€ูุงÛ ุขู…ูุฒุดÛ ู…ู...';
 
                         const imgEl = document.getElementById('aboutImage');
                         if (data.aboutImageUrl) {
                             imgEl.src = data.aboutImageUrl;
                         } else {
-                            imgEl.src = 'https://placehold.co/400x400/cccccc/969696?text=ฺำ+ใไ';
+                            imgEl.src = 'https://placehold.co/400x400/cccccc/969696?text=ุนฺฉุณ+ู…ู';
                         }
 
                     } else {
                         // Initialize the single document with all default fields
                         setDoc(userSiteDataRef, {
-                            name: 'ัึว ใัสึๆ?',
+                            name: 'ุฑุถุง ู…ุฑุชุถูÛ',
                             phone: '09374558557',
-                            address: 'ฮวไ? ยศวฯ ไๆก ฮ?วศวไ ิๅ?ฯ แุ?Ý?ก ฮ?วศวไ ศวÞั?วไก แว 6',
-                            email: 'ว?ใ?แ ฮๆฯ ัว ๆวัฯ ไ?ฯ',
-                            backgroundImageUrl: 'https://placehold.co/1920x1080/667eea/ffffff?text=ๅไั+ใไ',
+                            address: 'ุฎุงูÛ ุขุจุงุฏ ููุ ุฎÛุงุจุงู ุดูÛุฏ ูุทÛูÛุ ุฎÛุงุจุงู ุจุงูุฑÛุงูุ ูพูุงฺฉ 6',
+                            email: 'ุงÛู…Ûู ุฎูุฏ ุฑุง ูุงุฑุฏ ฺฉูÛุฏ',
+                            backgroundImageUrl: 'https://placehold.co/1920x1080/667eea/ffffff?text=ููุฑ+ู…ู',
                             backgroundSize: 'cover',
-                            heroTitle: 'ๅไัก สฬแ? ัๆอ',
-                            heroSubtitle: 'วๆิ? ฯั ฯไ?ว? ำ?วๅ Þแใก ัไ ัๆÛไ ๆ ุัวอ? ศว ัึว ใัสึๆ?.',
-                            aboutText: 'ำแวใ! ใไ ัึว ใัสึๆ? ๅำสใ. ำวแๅวำส ๅ ศว ฺิÞ ๆ ฺแวÞๅ ฯั าใ?ไๅ ๅไัๅว? สฬำใ?ก ศๅๆ?ๅ ำ?วๅ Þแใก ัไ ัๆÛไ ๆ ุัวอ? Ýฺวแ?ส ใ?ไใ. ๅไั ศัว? ใไ ไๅ สไๅว ? อัÝๅก ศแๅ ัวๅ? ศัว? ศ?วไ วอำวำวส ๆ ฯ?ฯวๅๅว?ใ ศๅ ฬๅวไ ?ัวใๆไ วำส. ใÝสฮัใ ๅ สฬัศ?วส ๆ ฯวไิ ฮๆฯ ัว วา ุั?Þ สฯั?ำ อัÝๅว? ว?ไ ัิสๅๅว ศว ๅไัฬๆ?วไ ฺแวÞๅใไฯ ศๅ วิสัว ใ?ะวัใ ๆ ิวๅฯ ิๆÝว?? วำสฺฯวฯๅว?ิวไ ๅำสใ.',
-                            portfolioTitle: 'ไใๆไๅ วัๅว',
-                            classesTitle: 'แวำๅว? ยใๆาิ?',
-                            classesText: 'ฯั แวำๅว? ยใๆาิ? ใไก ิใว ศว วีๆแ ๆ สไ?ๅว? อัÝๅว? ำ?วๅ Þแใก ัไ ัๆÛไ ๆ ุัวอ? ยิไว ฮๆวๅ?ฯ ิฯ. ๅฯÝ ใไ ว?ฬวฯ Ýึว?? ๆ?ว ๆ ฮแวÞ ศัว? ัิฯ วำสฺฯวฯๅว? ิใวำส. ศัว? วุแวฺวส ศ?ิสั ฯัศวัๅ ฯๆัๅๅว ๆ หศสไวใ ศว ใไ สใวำ ศ?ั?ฯ.',
-                            aboutImageUrl: 'https://placehold.co/400x400/cccccc/969696?text=ฺำ+ใไ',
+                            heroTitle: 'ููุฑุ ุชุฌูÛ ุฑูุญ',
+                            heroSubtitle: 'ฺฉุงูุดÛ ุฏุฑ ุฏูÛุงÛ ุณÛุงู ููู…ุ ุฑูฺฏ ุฑูุบู ู ุทุฑุงุญÛ ุจุง ุฑุถุง ู…ุฑุชุถูÛ.',
+                            aboutText: 'ุณูุงู…! ู…ู ุฑุถุง ู…ุฑุชุถูÛ ูุณุชู…. ุณุงูโ€ูุงุณุช ฺฉู ุจุง ุนุดู ู ุนูุงูู ุฏุฑ ุฒู…Ûูู ููุฑูุงÛ ุชุฌุณู…Ûุ ุจูโ€ูÛฺู ุณÛุงู ููู…ุ ุฑูฺฏ ุฑูุบู ู ุทุฑุงุญÛ ูุนุงูÛุช ู…Ûโ€ฺฉูู…. ููุฑ ุจุฑุงÛ ู…ู ูู ุชููุง Ûฺฉ ุญุฑููุ ุจูฺฉู ุฑุงูÛ ุจุฑุงÛ ุจÛุงู ุงุญุณุงุณุงุช ู ุฏÛุฏฺฏุงูโ€ูุงÛู… ุจู ุฌูุงู ูพÛุฑุงู…ูู ุงุณุช. ู…ูุชุฎุฑู… ฺฉู ุชุฌุฑุจÛุงุช ู ุฏุงูุด ุฎูุฏ ุฑุง ุงุฒ ุทุฑÛู ุชุฏุฑÛุณ ุญุฑููโ€ุงÛ ุงÛู ุฑุดุชูโ€ูุง ุจุง ููุฑุฌูÛุงู ุนูุงููโ€ู…ูุฏ ุจู ุงุดุชุฑุงฺฉ ู…Ûโ€ฺฏุฐุงุฑู… ู ุดุงูุฏ ุดฺฉููุงÛÛ ุงุณุชุนุฏุงุฏูุงÛุดุงู ูุณุชู….',
+                            portfolioTitle: 'ูู…ููู ฺฉุงุฑูุง',
+                            classesTitle: 'ฺฉูุงุณโ€ูุงÛ ุขู…ูุฒุดÛ',
+                            classesText: 'ุฏุฑ ฺฉูุงุณโ€ูุงÛ ุขู…ูุฒุดÛ ู…ูุ ุดู…ุง ุจุง ุงุตูู ู ุชฺฉูÛฺฉโ€ูุงÛ ุญุฑููโ€ุงÛ ุณÛุงู ููู…ุ ุฑูฺฏ ุฑูุบู ู ุทุฑุงุญÛ ุขุดูุง ุฎูุงูÛุฏ ุดุฏ. ูุฏู ู…ู ุงÛุฌุงุฏ ูุถุงÛÛ ูพูÛุง ู ุฎูุงู ุจุฑุงÛ ุฑุดุฏ ุงุณุชุนุฏุงุฏูุงÛ ุดู…ุงุณุช. ุจุฑุงÛ ุงุทูุงุนุงุช ุจÛุดุชุฑ ุฏุฑุจุงุฑู ุฏูุฑูโ€ูุง ู ุซุจุชโ€ูุงู… ุจุง ู…ู ุชู…ุงุณ ุจฺฏÛุฑÛุฏ.',
+                            aboutImageUrl: 'https://placehold.co/400x400/cccccc/969696?text=ุนฺฉุณ+ู…ู',
                             timestamp: serverTimestamp() 
                         }).catch(e => console.error("Error initializing user site data:", e));
                     }
@@ -431,14 +431,14 @@
             
             const img = document.createElement('img');
             img.src = imageUrl;
-            img.alt = 'สีๆ?ั ไใๆไๅ วั'; 
+            img.alt = 'ุชุตูÛุฑ ูู…ููู ฺฉุงุฑ'; 
             img.className = 'w-full h-full object-cover rounded-lg';
-            img.onerror = () => { img.src = 'https://placehold.co/300x300/ff0000/ffffff?text=ฮุว+ฯั+ศวัะวั?'; }
+            img.onerror = () => { img.src = 'https://placehold.co/300x300/ff0000/ffffff?text=ุฎุทุง+ุฏุฑ+ุจุงุฑฺฏุฐุงุฑÛ'; }
 
             const deleteButton = document.createElement('button');
             deleteButton.innerHTML = '&times;';
             deleteButton.className = 'delete-btn admin-controls';
-            deleteButton.title = 'อะÝ ฺำ';
+            deleteButton.title = 'ุญุฐู ุนฺฉุณ';
             deleteButton.onclick = () => deleteGalleryImage(imageId, collectionName, imageUrl);
 
             div.appendChild(img);
@@ -449,7 +449,7 @@
         // Uploads image to a gallery (portfolio, classes)
         async function uploadGalleryImage(file, collectionName) {
             if (!userId || !file) return;
-            showLoading('ฯั อวแ ศวัะวั? ฺำ...');
+            showLoading('ุฏุฑ ุญุงู ุจุงุฑฺฏุฐุงุฑÛ ุนฺฉุณ...');
 
             const fileName = `images/${userId}/${collectionName}/${Date.now()}_${file.name}`;
             const storageRef = ref(storage, fileName);
@@ -467,7 +467,7 @@
                 console.error(`Error uploading ${collectionName} image:`, error);
                 // Custom alert for user
                 const userAlert = document.createElement('div');
-                userAlert.textContent = 'ฮุว ฯั ศวัะวั? ฺำ.';
+                userAlert.textContent = 'ุฎุทุง ุฏุฑ ุจุงุฑฺฏุฐุงุฑÛ ุนฺฉุณ.';
                 userAlert.style.cssText = "position:fixed; top:10px; left:50%; transform:translateX(-50%); background:red; color:white; padding:10px; border-radius:5px; z-index:10000;";
                 document.body.appendChild(userAlert);
                 setTimeout(() => userAlert.remove(), 3000);
@@ -481,8 +481,8 @@
             if (!userId) return;
             
             // Custom confirm dialog
-            const confirmModal = createConfirmModal('ย?ว วา อะÝ ว?ไ สีๆ?ั ใุใฦไ ๅำส?ฯฟ', async () => {
-                showLoading('ฯั อวแ อะÝ ฺำ...');
+            const confirmModal = createConfirmModal('ุขÛุง ุงุฒ ุญุฐู ุงÛู ุชุตูÛุฑ ู…ุทู…ุฆู ูุณุชÛุฏุ', async () => {
+                showLoading('ุฏุฑ ุญุงู ุญุฐู ุนฺฉุณ...');
                 try {
                     const colRef = collectionName === 'portfolioImages' ? getPortfolioImagesColRef() : getClassImagesColRef();
                     const docToDeleteRef = doc(colRef, imageId);
@@ -496,7 +496,7 @@
                 } catch (error) {
                     console.error(`Error deleting image ${imageId} from ${collectionName}:`, error);
                      const userAlert = document.createElement('div');
-                    userAlert.textContent = 'ฮุว ฯั อะÝ ฺำ.';
+                    userAlert.textContent = 'ุฎุทุง ุฏุฑ ุญุฐู ุนฺฉุณ.';
                     userAlert.style.cssText = "position:fixed; top:10px; left:50%; transform:translateX(-50%); background:red; color:white; padding:10px; border-radius:5px; z-index:10000;";
                     document.body.appendChild(userAlert);
                     setTimeout(() => userAlert.remove(), 3000);
@@ -528,7 +528,7 @@
             adminToggleBtn.onclick = () => {
                 isAdminMode = !isAdminMode;
                 document.body.classList.toggle('admin-mode', isAdminMode);
-                adminToggleBtn.textContent = isAdminMode ? 'ฮัๆฬ วา อวแส ใฯ?ั?ส' : 'ๆัๆฯ ศๅ อวแส ใฯ?ั?ส';
+                adminToggleBtn.textContent = isAdminMode ? 'ุฎุฑูุฌ ุงุฒ ุญุงูุช ู…ุฏÛุฑÛุช' : 'ูุฑูุฏ ุจู ุญุงูุช ู…ุฏÛุฑÛุช';
                 if (isAdminMode) {
                     settingsPanel.classList.remove('translate-x-full');
                     settingsPanel.classList.add('translate-x-0');
@@ -550,7 +550,7 @@
             document.getElementById('bgImageUpload').onchange = async (event) => {
                 const file = event.target.files[0];
                 if (file) {
-                    showLoading('ฯั อวแ ศวัะวั? ำ าใ?ไๅ...');
+                    showLoading('ุฏุฑ ุญุงู ุจุงุฑฺฏุฐุงุฑÛ ูพุณ ุฒู…Ûูู...');
                     const fileName = `backgrounds/${userId}/${Date.now()}_${file.name}`;
                     const storageRefInstance = ref(storage, fileName);
                     try {
@@ -563,7 +563,7 @@
                     } catch (error) {
                         console.error("Error uploading background image:", error);
                         const userAlert = document.createElement('div');
-                        userAlert.textContent = "ฮุว ฯั ศวัะวั? สีๆ?ั ำ าใ?ไๅ.";
+                        userAlert.textContent = "ุฎุทุง ุฏุฑ ุจุงุฑฺฏุฐุงุฑÛ ุชุตูÛุฑ ูพุณ ุฒู…Ûูู.";
                         userAlert.style.cssText = "position:fixed; top:10px; left:50%; transform:translateX(-50%); background:red; color:white; padding:10px; border-radius:5px; z-index:10000;";
                         document.body.appendChild(userAlert);
                         setTimeout(() => userAlert.remove(), 3000);
@@ -579,14 +579,14 @@
                     document.getElementById('hero').style.backgroundSize = size;
                     console.log("Background size updated.");
                     const userAlert = document.createElement('div');
-                    userAlert.textContent = "สไู?ใวส ำ าใ?ไๅ ะฮ?ัๅ ิฯ.";
+                    userAlert.textContent = "ุชูุธÛู…ุงุช ูพุณ ุฒู…Ûูู ุฐุฎÛุฑู ุดุฏ.";
                     userAlert.style.cssText = "position:fixed; top:10px; left:50%; transform:translateX(-50%); background:green; color:white; padding:10px; border-radius:5px; z-index:10000;";
                     document.body.appendChild(userAlert);
                     setTimeout(() => userAlert.remove(), 3000);
                  } catch(e) {
                     console.error("Error saving background size: ", e);
                      const userAlert = document.createElement('div');
-                    userAlert.textContent = "ฮุว ฯั ะฮ?ัๅ สไู?ใวส ำ าใ?ไๅ.";
+                    userAlert.textContent = "ุฎุทุง ุฏุฑ ุฐุฎÛุฑู ุชูุธÛู…ุงุช ูพุณ ุฒู…Ûูู.";
                     userAlert.style.cssText = "position:fixed; top:10px; left:50%; transform:translateX(-50%); background:red; color:white; padding:10px; border-radius:5px; z-index:10000;";
                     document.body.appendChild(userAlert);
                     setTimeout(() => userAlert.remove(), 3000);
@@ -597,7 +597,7 @@
             document.getElementById('aboutImageUpload').onchange = async (event) => {
                 const file = event.target.files[0];
                 if (file) {
-                    showLoading('ฯั อวแ ศวัะวั? ฺำ ัๆÝว?แ...');
+                    showLoading('ุฏุฑ ุญุงู ุจุงุฑฺฏุฐุงุฑÛ ุนฺฉุณ ูพุฑููุงÛู...');
                     const fileName = `profileImages/${userId}/${Date.now()}_${file.name}`;
                     const storageRefInstance = ref(storage, fileName);
                     try {
@@ -610,7 +610,7 @@
                     } catch (error) {
                         console.error("Error uploading about image:", error);
                          const userAlert = document.createElement('div');
-                        userAlert.textContent = "ฮุว ฯั ศวัะวั? ฺำ ัๆÝว?แ.";
+                        userAlert.textContent = "ุฎุทุง ุฏุฑ ุจุงุฑฺฏุฐุงุฑÛ ุนฺฉุณ ูพุฑููุงÛู.";
                         userAlert.style.cssText = "position:fixed; top:10px; left:50%; transform:translateX(-50%); background:red; color:white; padding:10px; border-radius:5px; z-index:10000;";
                         document.body.appendChild(userAlert);
                         setTimeout(() => userAlert.remove(), 3000);
@@ -626,20 +626,20 @@
                 aboutImgDeleteBtn.onclick = async () => {
                     const currentImageSrc = document.getElementById('aboutImage').src;
                      if (currentImageSrc && !currentImageSrc.includes('placehold.co')) {
-                        const confirmModal = createConfirmModal('ย?ว วา อะÝ ฺำ ฯัศวัๅ ใไ ใุใฦไ ๅำส?ฯฟ', async () => {
-                            showLoading('ฯั อวแ อะÝ ฺำ ัๆÝว?แ...');
+                        const confirmModal = createConfirmModal('ุขÛุง ุงุฒ ุญุฐู ุนฺฉุณ ุฏุฑุจุงุฑู ู…ู ู…ุทู…ุฆู ูุณุชÛุฏุ', async () => {
+                            showLoading('ุฏุฑ ุญุงู ุญุฐู ุนฺฉุณ ูพุฑููุงÛู...');
                             try {
                                 // Delete from Storage first
                                 const storageRefInstance = ref(storage, currentImageSrc);
                                 await deleteObject(storageRefInstance);
                                 // Then update Firestore
                                 await updateDoc(getUserSiteDataDocRef(), { aboutImageUrl: '', lastUpdated: serverTimestamp() });
-                                document.getElementById('aboutImage').src = 'https://placehold.co/400x400/cccccc/969696?text=ฺำ+ใไ';
+                                document.getElementById('aboutImage').src = 'https://placehold.co/400x400/cccccc/969696?text=ุนฺฉุณ+ู…ู';
                                 console.log("About image deleted.");
                             } catch (error) {
                                 console.error("Error deleting about image:", error);
                                 const userAlert = document.createElement('div');
-                                userAlert.textContent = "ฮุว ฯั อะÝ ฺำ ัๆÝว?แ.";
+                                userAlert.textContent = "ุฎุทุง ุฏุฑ ุญุฐู ุนฺฉุณ ูพุฑููุงÛู.";
                                 userAlert.style.cssText = "position:fixed; top:10px; left:50%; transform:translateX(-50%); background:red; color:white; padding:10px; border-radius:5px; z-index:10000;";
                                 document.body.appendChild(userAlert);
                                 setTimeout(() => userAlert.remove(), 3000);
@@ -650,7 +650,7 @@
                         document.body.appendChild(confirmModal);
                     } else {
                         const userAlert = document.createElement('div');
-                        userAlert.textContent = "ฺำ? ศัว? อะÝ ๆฬๆฯ ไฯวัฯ.";
+                        userAlert.textContent = "ุนฺฉุณÛ ุจุฑุงÛ ุญุฐู ูุฌูุฏ ูุฏุงุฑุฏ.";
                         userAlert.style.cssText = "position:fixed; top:10px; left:50%; transform:translateX(-50%); background:orange; color:white; padding:10px; border-radius:5px; z-index:10000;";
                         document.body.appendChild(userAlert);
                         setTimeout(() => userAlert.remove(), 3000);
@@ -702,7 +702,7 @@
             messageP.style.color = '#333'; // Darker text for better readability
 
             const confirmButton = document.createElement('button');
-            confirmButton.textContent = 'สว??ฯ';
+            confirmButton.textContent = 'ุชุงÛÛุฏ';
             confirmButton.style.cssText = 'background-color:#4CAF50; color:white; padding:10px 15px; border:none; border-radius:4px; cursor:pointer; margin-right:10px;';
             confirmButton.onclick = () => {
                 onConfirm();
@@ -710,7 +710,7 @@
             };
 
             const cancelButton = document.createElement('button');
-            cancelButton.textContent = 'วไีัวÝ';
+            cancelButton.textContent = 'ุงูุตุฑุงู';
             cancelButton.style.cssText = 'background-color:#f44336; color:white; padding:10px 15px; border:none; border-radius:4px; cursor:pointer;';
             cancelButton.onclick = () => {
                 modalOverlay.remove();
